@@ -1,8 +1,9 @@
-import './App.css';
+import React from 'react';
 import Home from './Controllers/Home/Home';
 import { Provider } from 'react-redux';
-import store from './Store';
+import store from './store';
 import { BrowserRouter as Router } from 'react-router-dom';
+import './App.css';
 
 function App() {
   return (
